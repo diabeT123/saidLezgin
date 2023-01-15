@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+input{
+    display: block;
+    padding: 5px 0px 5px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+fieldset{
+    display: inline-block;
+    border: none;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button{
+    background-color: #fff;
+    width: 100px;
+    padding: 5px 0px;
+}
+
+.info{
+    background: url("./dostavka.jpg") 0 0 / 100% no-repeat;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+
+.info__form{
+    background-color: rgb(206, 81, 81);
+    display: inline-block;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.info__item{
+    margin-bottom: 20px;
+}
+.info__field-item{
+    display: flex;
+    align-items: center;
+}
+.info_field-label{
+    margin-right: 10px;
+}
+.info__buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.info__submit{
+    margin-right: 10px;
+}
