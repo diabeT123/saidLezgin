@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text--bold{
+    font-size: 50px;
+    color: #000;
+}
+
+/* Задаю параметры для child напрямую и через родителя */
+
+.parent{
+    color: #000;
+    font-size: 50px;
+}
+.child{
+    background-color: rgb(69, 46, 161);
+    padding: 5px 15px;
+}
+
+a[href="#bold"]{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: rgb(241, 42, 174);
+    color: aliceblue;
+}

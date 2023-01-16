@@ -1,0 +1,17 @@
+
+
+.jugger{
+    width: 20%;
+    height: 20%;
+}
+
+.sf{
+    width: 20%;
+    height: 20%;
+}
+
+.block{
+    background: url("../images/sf.webp") 0 0 / 100% no-repeat;
+    height: 500px;
+    width: 500px;
+}
