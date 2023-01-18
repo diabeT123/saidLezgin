@@ -1,0 +1,14 @@
+.block{
+    position: fixed;
+    width: calc(50% - 50px);
+    height: 400px;
+    box-shadow: inset 0px 0px 20px #000;
+    bottom: 100px;
+    right: 50px;
+    background-color: rgb(205, 54, 54);
+    border-radius: 10px;
+}
+.block__empty{
+    height: 500vh;
+    
+}

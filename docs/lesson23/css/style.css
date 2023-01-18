@@ -1,0 +1,28 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.images__inner{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    height: 100vh;
+}
+/* ----------------------Универсальным свойством------------------ */
+.images__block-1{
+    width: 400px;
+    height: 400px;
+    background: url("../images/i.webp") 50% 50% no-repeat, linear-gradient(#000,#fff);
+}
+
+/* ----------------------Неуниверсальными свойствами-----   ------------- */
+.images__block-2{
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/i.webp"), linear-gradient(#000, #fff);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}

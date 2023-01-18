@@ -1,0 +1,82 @@
+
+/* ----------------------МОЯ АНИМАЦИЯ(НЕ ПО ДЗ)------------ */
+.image {
+    width: 100%;
+    background-color: rgb(33, 32, 32);
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.image__inner {
+    background-color: rgb(80, 73, 73);
+    width: 100%;
+    height: 188px;
+    position: relative;
+}
+.css__image{
+    width: 188px;
+    height: 188px;
+    position: absolute;
+    left: 0;
+    opacity: 0%;
+}
+.html__image{
+    width: 188px;
+    height: 188px;
+    position: absolute;
+    left: 0;
+    opacity: 100%;
+}
+.html__image:hover{
+    animation: change__html 2s forwards ease ;
+}
+.css__image:hover{
+    animation: change__css 2s forwards ease ;
+}
+
+
+@keyframes change__html{
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+@keyframes change__css{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+/* ----------------------ДЗ---------------------------- */
+.homework {
+    background-color: rgb(33, 32, 32);
+    height: 50vh;
+}
+
+.homework__inner {
+}
+.homework__text {
+    color: rgb(250 62 62);
+    background: rgba(228, 229, 233, 0.62);
+    padding: 20px;
+    border-radius: 10px;
+    animation: change__color 1.5s infinite alternate ease-in;
+}
+
+@keyframes change__color{
+    0%{
+
+    }
+    100%{
+        color: #000;
+    }
+}

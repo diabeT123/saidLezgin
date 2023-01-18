@@ -1,0 +1,27 @@
+
+/* Универсальным свойством */
+.block{
+    width: 100%;
+    margin-top: 50px;
+    height: 5px;
+    margin-bottom: 50px;
+    background-color: #000;
+    transition:all 3s 2s;
+}
+.block:hover{
+    background-color: #ff0000;
+}
+
+/* Неуниверсальными свойствами */
+
+.block__2{
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+}
+.block__2:hover{
+    background-color: #ff0000;
+}
