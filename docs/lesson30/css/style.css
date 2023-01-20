@@ -1,0 +1,39 @@
+
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    background-color: rgb(22, 20, 20);
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+}
+.menu{
+    padding-top: 300px;
+}
+.menu__inner{
+    margin: 0 auto;
+}
+.menu__item:first-child:hover{
+    color: red;
+}
+.menu__item:first-child{
+    font-weight: 900;
+}
+.menu__item:nth-child(2){
+    font-weight: 700;
+}
+.menu__item:last-child{
+    font-weight: 400;
+}
+.menu__item{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: Roboto;
+    margin-bottom: 20px;
+    transition: all .3s;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+}

@@ -1,0 +1,77 @@
+
+/* ----------------------ДЛЯ СЕБЯ--------------------------- */
+.header {
+    font-weight: 700;
+    padding: 32px 0px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    margin-right: 73px;
+}
+.header__nav {
+    margin-right: auto;
+}
+.header__nav-link {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 42px;
+    display: inline-block;
+    color: #5E81FE;
+}
+.header__socials {
+    display: flex;
+    align-items: center;
+
+}
+.header__socials-list {
+    display: flex;
+    align-items: center;
+}   
+.header__socials-item {
+    margin-right: 35px;
+}
+.header__socials-item:last-child{
+    margin-right: 44px;
+}
+.header__socials-link {
+}
+.header__socials-button {
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A79FF;
+    background: #D2E1FF;
+    padding: 13px 16px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+/* ------------------------ДЗ------------------------------- */
+
+.block {
+    padding: 50px 0px;
+    background-color: #000000ac;
+}
+.block__inner {
+}
+.block__list {
+    background-color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block__item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(5, 73, 233);
+    border-radius: 3px;
+}
