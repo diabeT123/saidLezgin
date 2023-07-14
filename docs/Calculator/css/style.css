@@ -1,0 +1,132 @@
+:root{
+    --milk-color: #fffbee;
+    --background-gray-color:#4d4b4b;
+    --dark-color: #131717;
+    --coffe-color:#B39F7A;
+}
+
+
+.wrapper{
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    display: block;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.header{
+    background: var(--dark-color);
+    padding: 20px 0px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__logo{
+    font-size: 30px;
+    color: var(--milk-color);
+    font-family: Poppins;
+    font-weight: 700;
+
+}
+.header__nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.header__nav-link{
+    color: var(--milk-color);
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.calc{
+    background: var(--background-gray-color);
+    min-height: 100vh;
+}
+.calc__title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--milk-color);
+    padding: 40px 0px 40px;
+}
+.calc__list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.calc__item-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--coffe-color);
+}
+.calc__list-image{
+    max-width: 200px;
+}
+.calc__list-form{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.calc__item-input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: var(--milk-color);
+    transition: all .3s;
+}
+.calc__item-input:focus{
+    transform: scale(1.1);
+}
+.calc__list-result{
+    border-radius: 10px;
+    background: var(--dark-color);
+    text-align: center;
+    padding: 20px;
+    color: var(--milk-color);
+    font-size: 18px;
+}
+.calc__list-button{
+    max-width: 150px;
+    background: var(--coffe-color);
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.calc__list-button:hover{
+    background:var(--dark-color);
+    color: var(--milk-color);
+    
+}
+
+
+
+@media(max-width:450px){
+
+    .calc__list-item{
+        flex-direction: column;
+        align-items: start;
+    }
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор по теории относительности</title>
+
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <h3 class="header__logo">MyCulc</h3>
+                    <nav class="header__nav">
+                        <a href="#" class="header__nav-link" style="font-family: Montserrat;">Теория относительности</a>
+                        <a href="#" class="header__nav-link " style="font-family: Montserrat;" >Другие калькуляторы</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="calc">
+                <div class="container">
+                    <div class="calc__inner">
+                        <h3 class="calc__title">Теория относительности</h3>
+                        <ul class="calc__list">
+                            <li class="calc__list-item">
+                                <p class="calc__item-name">1.Релятивистский закон сложения скоростей</p>
+                                <img class="calc__list-image" src="/images/ЗаконСложенияСкоростей_00000.jpg"
+                                    alt="Закон сложения скоростей">
+                                <form class="calc__list-form">
+                                    <input type="text" class="calc__item-input oneValueA" placeholder="v1">
+                                    <input type="text" class="calc__item-input oneValueB" placeholder="v2">
+                                    <input type="text" class="calc__item-input oneValueC" placeholder="c">
+                                </form>
+                                <button class="calc__list-button oneResultButton">Вычислить примерное значение</button>
+                                <p class="calc__list-result oneResult"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
